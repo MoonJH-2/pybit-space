@@ -1,3 +1,32 @@
+# Config files (contains sensitive information like API keys)
+configs/*.env
+
+# Python virtual environment
 venv/
+
+# Compiled Python files
 __pycache__/
+*.pyc
+
+# Data files (processed and raw data)
+data/processed/
+data/raw/
+
+# Logs
 *.log
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python dependencies
+*.egg-info/
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Installation-related files
+requirements.txt
